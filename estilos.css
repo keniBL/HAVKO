@@ -1,0 +1,223 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Trispace', sans-serif;
+    color:rgb(253, 253, 253);
+    text-align: center;
+    background-color: rgb(1, 36, 33);
+}
+
+.contenedor{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 1px;
+
+}
+                                  
+ 
+
+ul{
+  list-style-type: none;
+ }
+
+a{
+  text-decoration: none;
+  color:white;
+  padding-right: 15px;
+}
+
+.logo{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  background: url(img/logo.png) no-repeat 0 0 scroll;
+  font-size: 0;
+  background-size: 100%;
+  
+}
+.d-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;    
+  align-items: center;
+  background-color: #ff0000ad;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 0 200px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.pres{
+  background-image: url(img/portada.jpg);
+  background-position: left top;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 300px;
+  padding-top: 250px;
+  
+  
+}
+
+#FOTO1 {
+  height:650px ;
+  width: 500px;
+}
+
+header p {
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0 auto;
+  
+}
+
+
+.borde{
+
+  border:solid 4px #ff0000;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 650px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#bienvenidos{
+      background-color: #202020;
+      padding-top: 100px;
+    }
+
+
+
+  
+
+.presentacion .tex-pres{
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  margin-top: 120px;
+  margin-bottom: 500px;
+
+}
+
+
+
+
+#estudio{
+  background-color: #2b2a2a;
+}
+
+
+
+.flexbox1,.flexbox2
+{display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.flexbox2
+{flex-direction: row-reverse;}
+
+
+
+
+.text-trabajos{
+  text-align: center
+  
+}
+
+
+
+
+
+.programas{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+
+.pres-kenbl h3{
+  font-size: 80px;
+}
+
+.pres-kenbl p{
+  font-size: 40px;
+}
+
+.inspiracion{
+text-align: center;
+margin left: auto;
+padding: 10px 10px;
+}
+
+.subir{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.kenbl{
+  position: relative; 
+  height: 500px;
+  padding: 10px 0;
+  left: 400px;
+  width: 600px;
+   
+}
+
+.kenbl .kenbl-derecha {
+  position:absolute;
+  z-index: 6;
+  width: 750px;
+  background-color: rgba(255, 0, 0, 0.438);
+  padding: 10px 10px;
+  color: rgb(255, 255, 255);
+}
+
+
+.kenbl figure {
+  position: absolute;
+  z-index: 1;
+  left:250px;
+}
+
+.barra{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+#herramientas{
+  background-color: #000000c2;
+  margin-bottom: 30px;
+}
+
+#redes{
+  background-color: #6b6a6a;
+}
+
+
+#footer{
+  background-color: #c2c2c2;
+  color:#353535;
+}
+
+  
